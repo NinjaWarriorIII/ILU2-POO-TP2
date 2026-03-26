@@ -14,6 +14,7 @@ public class BoundaryLibererEtal {
 		if(!veneurReconnu) {
 			StringBuilder message = new StringBuilder();
 			message.append("Mais vous n'êtes pas inscrit sur notre marché aujour'hui !");
+			System.err.println(message);
 			
 		} else {
 			StringBuilder message = new StringBuilder();
